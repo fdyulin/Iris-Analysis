@@ -77,3 +77,5 @@ facet <- ggplot(data=df, aes(Sepal.Length, y=Sepal.Width, color=Species)) +
   ggtitle("Faceting") 
 # Along columns
 facet + facet_grid(. ~ Species)
+renv::snapshot() 
+
